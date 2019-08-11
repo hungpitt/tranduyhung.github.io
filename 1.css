@@ -1,1 +1,188 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+
+.khoittnho {
+    margin-bottom: 55px;
+}
+.xuong {
+    width: 41px;
+    height: 70px;
+    position: absolute;
+    border: white solid 1px;
+    border-radius: 30px;
+    left: 50%;
+    bottom: 2%;
+    margin-left: -20px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.xuong:hover {
+    bottom: 4%;
+}
+.xuong:after {
+    content: "";
+    width: 3px;
+    height: 7px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 67%;
+    margin-left: -2px;
+}
+span.motaqt {
+    font-size: 13px;
+    margin-bottom: 26px;
+    display: block;
+}
+
+.khoittnho p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000cf;
+}
+
+.khoittnho h3.tieudecap3 {
+    font-size: 16px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+span.dam {
+    font-weight: bold;
+}
+
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.tieudeto {
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.tieudeto h1 {
+    display: inline;
+    background: url(2dongke.png) no-repeat left bottom;
+    padding-bottom: 22px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+a.nutthire.btn.btn-primary {
+    width: 180px;
+}
+
+html , body {
+    width: 100%;
+    height: 100%;
+}
+
+.khoitt1 {
+    height: 100%;
+    width: 100%;
+    background: #e9585f;
+    z-index: 1;
+    position: relative;
+}
+.khoitt1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #ff000033;
+}
+.tt img {
+    width: 15%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+
+
+}
+.tt h2 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+.tt p {
+    color: white;
+    font-size: 15px;
+    line-height: 22px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px; 
+}
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 10%;
+}
+a.navbar-brand {
+    line-height: 63px;
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav.navbar-nav.float-xs-right {
+    /* background: white; */
+}
+
+li.nav-item {
+    margin: 0;
+    padding: 0;
+    margin: 0 17px;
+}
+
+a.nav-link {
+    font-family: segoe ui light;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #dc7171 !important;
+    line-height: 67px;
+}
+
+nav.navbar.navbar-light.bg-faded {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
+    background: white;
+} 
+@media (max-width: 576px){
+a.navbar-brand {
+    display : block;
+    width: 100%;
+    text-align: center;
+    color:red;
+}
+
+
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none;
+    text-align: center;
+}
+
+a.nav-link {
+    line-height: 30px;
+    display: inline !important;
+  
+}
+
+li.nav-item {
+    display: inline;
+    float: none !important;
+      margin:0px 0px ;
+}
+
+
+    }
